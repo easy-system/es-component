@@ -13,7 +13,10 @@
     "autoload": {
         "psr-4": {
             "Es\\Component\\": "src/"
-        }
+        },
+        "files": [
+            "src/constants_include.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": { "Es\\Component\\Test\\": "test/" }
