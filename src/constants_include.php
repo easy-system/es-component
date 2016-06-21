@@ -9,6 +9,6 @@
  */
 namespace Es;
 
-if (! defined('__ES__')) {
+if (! defined('_ES_')) {
     require 'constants.php';
 }

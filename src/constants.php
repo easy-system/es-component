@@ -9,8 +9,25 @@
  */
 namespace Es;
 
-define('__ES__', 'Easy System');
+/**
+ * Constant for internal use.
+ *
+ * @const string
+ */
+define('_ES_', 'Easy System');
 
-define('DS', DIRECTORY_SEPARATOR);
+/**
+ * The correct directory separator for this platform.
+ *
+ * @const string
+ */
+defined('PHP_DS')
+    || define('PHP_DS', DIRECTORY_SEPARATOR);
 
-define('PHP_INT_MIN', ~PHP_INT_MAX);
+/**
+ * The smallest integer supported in this build of PHP.
+ *
+ * @const int
+ */
+defined('PHP_INT_MIN')
+    || define('PHP_INT_MIN', ~PHP_INT_MAX);
